@@ -11,13 +11,31 @@
         margin: 0 auto;    
     }
     .slider-img {
-        width: 300px;
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .titleCards {
+        font-size: 24px;
+    }
+    .subTitle {
+        font-size: 16px;
+    } 
+    .descriptionCards {
+        font-size: 14px;
     }
     .footer {
         flex-direction: column;
     }
+    .informationFooter {
+        gap: 1rem;
+    }
+    .footerPart {
+        margin: 1rem 0;
+    }
     .spanFooter {
         text-align: center;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 360px) {

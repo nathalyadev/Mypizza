@@ -11,7 +11,7 @@ Projeto realizado em mais ou menos 3 horas e 30 min, esse projeto foi desenvolvi
 - Fontes do Google
 - Figma (para construção do layout)
 
-#### Link para acesso -
+#### Link para acesso - https://nathgit198.github.io/Mypizza/
 
 ## Autor
 - Nathálya Lima 

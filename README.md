@@ -1,7 +1,7 @@
 # MyPizza
 ## Sobre o projeto
 
-Projeto realizado em mais ou menos 3 horas e 30 min, esse projeto foi desenvolvido com o intuito de testar em quanto tempo seria possível desenvolver uma página simples e deixar totalmente responsivo com meus conhecimentos. As maiores dificuldades que tive durante a execução deste projeto foi na hora de pensar no design e desenvolve-lo no Figma, já na parte do código a responsividade foi um desafio.
+Projeto realizado em mais ou menos 3 horas e 30 min, esse projeto foi desenvolvido com o intuito de testar em quanto tempo seria possível desenvolver uma página simples e deixar totalmente responsiva com meus conhecimentos. As maiores dificuldades que tive durante a execução deste projeto foi na hora de pensar no design e desenvolve-lo no Figma, já na parte do código a responsividade foi um desafio.
 
 ## Mypizza![MyPizza](https://user-images.githubusercontent.com/83317033/166082747-eb47fe4f-95be-4f0f-a8d8-1ebb63ba8f92.png)
 

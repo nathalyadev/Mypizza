@@ -1,5 +1,7 @@
 const { createApp } = Vue;
 
+import MainContainer from './components/MainContainer.vue'
+
 createApp({
     template: `
             <nav>
@@ -12,10 +14,14 @@ createApp({
                 </ul>
             </nav>
           <header>
-            <img src="">
+            <img src="" alt="">
           </header>  
+          <MainContainer/>
         `,
     data() {
         return {};
     },
+    components: {
+        MainContainer
+    }
 }).mount("#app");

@@ -41,6 +41,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: relative;
+  z-index: 1;
 }
 .navbar li {
   font-weight: 500;

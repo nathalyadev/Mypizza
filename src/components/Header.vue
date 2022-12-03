@@ -31,8 +31,6 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
-  z-index: -1;
 }
 .bannerLeft {
 }
@@ -61,12 +59,25 @@ export default {
   color: #fff;
   background: #f27405;
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 .imgBannerContainer {
   transform: rotate(31.46deg);
   max-width: 360px;
-  max-height: 640px;
+  max-height: 540px;
 }
-.imgBanner {
-}
+/* 
+.imgBannerContainer::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 200px solid #5386e4;
+  position: absolute;
+  bottom: 200px;
+  right: 1rem;
+  transform: rotate(-32.46deg);
+} */
 </style>

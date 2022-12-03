@@ -3,7 +3,7 @@
     <Header />
 
     <section class="mostRequest">
-      <h1 class="title">Mais Pedidas</h1>
+      <h1 class="titleMostRequest">Mais Pedidas</h1>
       <ul class="cardPizzas">
         <li>
           <img src="../assets/pizza.svg" alt="" />
@@ -64,6 +64,14 @@ export default {
 
 <style scoped>
 /* Section -- MostRequest */
+.titleMostRequest {
+  padding: 90px 0px 30px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #0c0c0c;
+  z-index: 2;
+  position: relative;
+}
 .cardPizzas {
   display: flex;
   justify-content: center;

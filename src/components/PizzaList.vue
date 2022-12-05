@@ -47,18 +47,31 @@
         <p class="valuePizza">R$ 20,00</p>
       </li>
       <section class="btnContainer">
-        <button class="btnAllPizzas">Ver menu completo</button>
+        <button class="btnAllPizzas" >Ver menu completo</button>
       </section>
     </ul>
+
+    <section class="modal" v-show="modal">
+      <section class="modalContainer">
+        <section class="modalHeader">
+          <span class="close">&times;</span>
+        </section>
+        <section class="modalBody">
+          <img src="../assets/Menu.png" alt="" />
+        </section>
+      </section>
+    </section>
   </section>
 </template>
 
 <script>
 export default {
   name: "PizzaList",
-  mounted() {
-    var btnModal = document.querySelector(".btnAllPizzas");
-  },
+  data() {
+    return {
+      modal: false
+    }
+  }
 };
 </script>
 
@@ -86,7 +99,8 @@ export default {
   margin-bottom: 8px;
   gap: 30px;
 }
-.typePizza, .valuePizza {
+.typePizza,
+.valuePizza {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -112,5 +126,22 @@ export default {
   color: #fff;
   background: transparent;
   padding: 8px 25px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
 }
 </style>

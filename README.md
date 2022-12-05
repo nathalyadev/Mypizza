@@ -30,7 +30,7 @@
 # :star2: Sobre o projeto
 Landing Page de pizzaria com dados fictícios 
 ## :camera: Layout do projeto
-![alt](https://github.com/nathalyadev/mypizza/blob/main/assets/screenshotPage.png)
+![alt](https://github.com/nathalyadev/mypizza/blob/main/src/assets/screenshotPage.png)
 
 
 ### :compass: Ajustes e melhorias

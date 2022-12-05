@@ -27,6 +27,12 @@
 
 </div>
 
+# :star2: Sobre o projeto
+Landing Page de pizzaria com dados fictícios 
+## :camera: Layout do projeto
+![alt](https://github.com/nathalyadev/mypizza/blob/main/assets/screenshotPage.png)
+
+
 ### :compass: Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:

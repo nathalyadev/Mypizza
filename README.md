@@ -23,7 +23,11 @@
       <img src="https://img.shields.io/github/license/nathalyadev/mypizza.svg" alt="license" />
     </a>
   </p>
-    
+    <h4>
+      <span> · </span>
+        <a target="_blank" href="https://mypizza-pizzaria.netlify.app/">View Demo</a>
+      <span> · </span>
+    </h4>
 
 </div>
 

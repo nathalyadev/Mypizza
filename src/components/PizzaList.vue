@@ -47,18 +47,20 @@
         <p class="valuePizza">R$ 20,00</p>
       </li>
       <section class="btnContainer">
-        <button class="btnAllPizzas" >Ver menu completo</button>
+        <button class="btnAllPizzas" @click="showMenu">
+          {{ txtBtn }}
+        </button>
       </section>
     </ul>
 
-    <section class="modal" v-show="modal">
-      <section class="modalContainer">
-        <section class="modalHeader">
-          <span class="close">&times;</span>
-        </section>
-        <section class="modalBody">
-          <img src="../assets/Menu.png" alt="" />
-        </section>
+    <section class="sectionMenu" v-show="displayMenu">
+      <section class="imgMenu">
+        <img src="../assets/Menu.png" alt="" />
+      </section>
+      <section class="sectionBtn">
+        <button class="btnAllPizzas" @click="showMenu">
+          {{ txtBtn }}
+        </button>
       </section>
     </section>
   </section>
@@ -69,9 +71,20 @@ export default {
   name: "PizzaList",
   data() {
     return {
-      modal: false
-    }
-  }
+      displayMenu: false,
+      txtBtn: "Ver menu completo",
+    };
+  },
+  methods: {
+    showMenu() {
+      this.displayMenu = !this.displayMenu;
+      if (!this.displayMenu) {
+        this.txtBtn = "Ver menu completo";
+      } else {
+        this.txtBtn = "Fechar menu";
+      }
+    },
+  },
 };
 </script>
 
@@ -121,27 +134,40 @@ export default {
 .btnContainer {
   text-align: right;
 }
-.btnContainer button {
+.btnAllPizzas {
   border: 1px solid #fbad19;
   color: #fff;
   background: transparent;
   padding: 8px 25px;
+  cursor: pointer;
+  width: 170px;
 }
 
-/* Modal */
-.modal {
+.sectionMenu {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 0.4s;
   animation-name: fadeIn;
   animation-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+}
+.imgMenu {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgMenu img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
 }
 </style>

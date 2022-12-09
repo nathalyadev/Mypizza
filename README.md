@@ -40,7 +40,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Arrumar imagem da seção Header
 - [ ] Arrumar Input e textarea
 - [ ] Adicionar mapa por meio de APIs
-- [ ] Adicionar modal da seção PizzaList
+- [X] Adicionar modal da seção PizzaList
 - [ ] Adicionar efeito hover nos botões
 
 ## :space_invader: Tecnologias utilizadas
